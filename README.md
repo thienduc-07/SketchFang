@@ -1,4 +1,4 @@
-# SketchFang - If you're coming from reddit to verify if I actually made this and I am who I say I am - Fuck you =)
+# SketchFang
 
 **Educational research pipeline.**  
 The education is *how your DRM works, babe.*
