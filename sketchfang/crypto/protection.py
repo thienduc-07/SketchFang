@@ -17,11 +17,12 @@ from __future__ import annotations
 import base64
 
 # Current viewer static key (ASCII hex)
-STATIC_KEY_HEX = "7364ed08ff64e52e778379dc2ad1620e00258c12"
+STATIC_KEY_HEX = "6eab21a744c8f07fc40ac55650413c98173f7827"
 
 # Older keys kept so locally cached / pre-rotation protection blobs still unwrap.
 KNOWN_STATIC_KEY_HEX: tuple[str, ...] = (
     STATIC_KEY_HEX,
+    "7364ed08ff64e52e778379dc2ad1620e00258c12",
     "8a236428dc997a0d1b36be2dc2094222b7fd31dd",
     "a71f878aee8cf5865f132e0c4011aa89061f5604",
     "7d61ef7c7530c12cf080fafd05e603d1aa3a92c6",
