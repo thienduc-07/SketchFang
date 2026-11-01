@@ -28,3 +28,10 @@ output/
 .idea/
 .vscode/
 *.swp
+
+# Local 3D extraction outputs
+out_sunny/
+out_zoro_katanas/
+
+# Decoded local assets
+*.decoded
